@@ -48,17 +48,42 @@
     <meta property="og:description" content="">
 
 
+    <style>
+
+      .navbar{
+        font-family: sans-serif;
+        color: darkgrey;
+      }
+
+
+    </style>
+
+
   </head>
   <body>
 
 
     <!-- main banner -->
-    <header role="banner">
-      <h1 class="text-white text-center display-1">Teacher Housing</h1>
+    <header role="banner pb-0 mb-0">
+      <h1 class="text-white text-center display-1 d-none">Teacher Housing</h1>
       <figure>
-        <img src="assets/teacherhousingjefferson-withheadline.png" alt= "An apartment building that is dark gray, white, and brown. In front of it lies a playground and greenery.">
+        <img class="img-fluid " src="assets/teacherhousingjefferson-withheadline.png" alt= "An apartment building that is dark gray, white, and brown. In front of it lies a playground and greenery.">
       </figure>
     </header>
+
+        <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 pt-0 mt-0">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <ul class="nav nav-pills mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#scrollspyHeading1">Districts Start Planning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading2">The District With Housing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading3">The Teachers Without It</a>
+          </ul>
+        </nav>
 
 
 
@@ -78,19 +103,7 @@
         </header>
 
 
-<!--         <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading1">Districts Start Planning</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#scrollspyHeading2">The District With Housing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-linl" href="#scrollspyHeading3">The Teachers Without It</a>
-          </ul>
-        </nav> -->
+
 
         <div class="row justify-content-center" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offs>
           <div class="col-12 col-md-8 col-lg-6">
@@ -129,7 +142,7 @@
             <p>“If people had told me two years ago, this is what it would cost to raise a child. I would've [asked], ‘Alright, where's the camera? Am I on candid camera?’ And it’s not something that I would've expected,” says Kumagai, “So for, someone who is raising a family, whose wife is also a teacher, I think that [school districts providing housing] would be helpful.”</p>
             <p>Chris Fallows teaches theater at Heritage High School and has taught since 1998. His housing situation at the beginning of his career is analogous to educators' struggles with housing today.</p>
             
-            <audio src=“./assets/fallowscut_housingmixdown.mp3” controls></audio>
+            <audio src="assets/fallows_cut_housingmixdown.mp3" class="w-100 my-3" controls></audio>
 
             <p>Fallows was living in San Jose with his wife and housemates, paying $1,400, equivalent to $2,583 in 2023. What drove him and his wife out of San Jose was when his landlord sent him a letter saying rent would increase to $2,200.<p>
             <p>“We went down the street to a house that was for sale and it had the price,” said Fallows, “So I asked, what it would take. What would my salary have to be to qualify to buy the house, which was kind of a fixer-upper. And looking at my salary scale, I would have to have been a 30-year teacher, and my wife would also have to be a 30-year teacher in order for us to qualify. Wow... And I thought, okay, well that's not happening literally ever.”</p>
@@ -229,15 +242,15 @@
         Stickyfill.add(stickyElements);
 
 
-        $(".scroll-container").scrollSwap({
-            dataImageAttribute: 'image',
-            triggerFromTop: 0.75,
-            speed: 0.5,
-            noCSS: false,
-            spreadDistance: "75vh",
-            backgroundColor: 'rgba(255,255,255,0.85)',
-            width: '50%'
-        });
+        // $(".scroll-container").scrollSwap({
+        //     dataImageAttribute: 'image',
+        //     triggerFromTop: 0.75,
+        //     speed: 0.5,
+        //     noCSS: false,
+        //     spreadDistance: "75vh",
+        //     backgroundColor: 'rgba(255,255,255,0.85)',
+        //     width: '50%'
+        // });
 
 
       });
